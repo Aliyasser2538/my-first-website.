@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My first website step-by-step">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home page where I introduce my website.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/about.jpg" alt="About Me Image" style="width:100%; max-width:500px; border-radius:10px;">
+        <p>I am learning how to build a website from scratch. This is so much fun!</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <img src="images/services.jpg" alt="Services Image" style="width:100%; max-width:500px; border-radius:10px;">
+        <ul>
+            <li>Web Design</li>
+            <li>Responsive Layouts</li>
+            <li>Website Optimization</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" placeholder="Write your message here" rows="5"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My First Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
